@@ -38,23 +38,35 @@ function Dangnhap(props) {
     const acc = {
         username: username,
         password: pass,
-        loginDevice: "3356e246-5cb4-4585-a575-b17593858e2a",
-        buildNumber: "15",
-        version: "1.69.10885",
+        loginDevice: "ddf0dbe2-ca90-47f1-8978-08ac90ff3754",
+        buildNumber: "11318",
+        version: "1.154",
         deviceIP: "10.15.188." + randomNumber,
-        deviceModel: "iPhone",
-        osVersion: "18"
+        deviceModel: "iPhone 11 Pro",
+        osVersion: "18.6.2"
     }
+    // const acc = {
+    //     username: username,
+    //     password: pass,
+    //     loginDevice: "ddf0dbe2-ca90-47f1-8978-08ac90ff3754",
+    //     buildNumber: "11318",
+    //     version: "1.154",
+    //     deviceIP: "10.15.188." + randomNumber,
+    //     deviceModel: "iPhone 11 Pro",
+    //     osVersion: "18.6.2"
+    // }
 
     const [isShowPassword, setIsShowPassword] = useState(false)
 
 
     const user = {
-        "deviceId": "42940546-D218-4ABF-958B-FB87AE0FC10A",
-        "reason": "",
+        "deviceId": "63943E03-4894-489E-B335-89303EB1CAB1",
+        "deviceName": "iPhone12,3",
+        // "reason": "",
         "ssid": "FIS",
         "ipGateway": "10.15.188.1",
-        "type": 0
+        "type": 0,
+        "isCheckDevice": true
     }
     //checkin
     const check_in = async () => {
