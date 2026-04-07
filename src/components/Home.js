@@ -3,11 +3,12 @@ import axios from 'axios';
 import { toast } from 'react-toastify';
 function Home(props) {
     const user = {
-        "deviceId": "42940546-D218-4ABF-958B-FB87AE0FC10A",
-        "reason": "",
+        "deviceId": "63943E03-4894-489E-B335-89303EB1CAB1",
+        "deviceName": "iPhone12,3",
         "ssid": "FIS",
         "ipGateway": "10.15.188.1",
-        "type": 0
+        "type": 0,
+        "isCheckDevice": true
     }
 
 

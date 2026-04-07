@@ -40,21 +40,11 @@ function Dangnhap(props) {
         password: pass,
         loginDevice: "ddf0dbe2-ca90-47f1-8978-08ac90ff3754",
         buildNumber: "11318",
-        version: "1.154",
-        deviceIP: "10.15.188." + randomNumber,
+        version: "1.69.10885",
+        deviceIP: "10.15.188." + Math.floor(Math.random() * 250),
         deviceModel: "iPhone 11 Pro",
         osVersion: "18.6.2"
     }
-    // const acc = {
-    //     username: username,
-    //     password: pass,
-    //     loginDevice: "ddf0dbe2-ca90-47f1-8978-08ac90ff3754",
-    //     buildNumber: "11318",
-    //     version: "1.154",
-    //     deviceIP: "10.15.188." + randomNumber,
-    //     deviceModel: "iPhone 11 Pro",
-    //     osVersion: "18.6.2"
-    // }
 
     const [isShowPassword, setIsShowPassword] = useState(false)
 
@@ -62,7 +52,6 @@ function Dangnhap(props) {
     const user = {
         "deviceId": "63943E03-4894-489E-B335-89303EB1CAB1",
         "deviceName": "iPhone12,3",
-        // "reason": "",
         "ssid": "FIS",
         "ipGateway": "10.15.188.1",
         "type": 0,
@@ -120,7 +109,7 @@ function Dangnhap(props) {
         <div class="wrapper">
                 <div>
                     <div class="text-center mt-4 name">
-                        <h4><b>ĐỪNG ĐỂ TIỀN RƠI</b></h4>
+                        <h4><b>Đưa hết tiền đây</b></h4>
                         <h6>Đăng nhập với tài khoản FPT</h6>
                     </div>
                     <form class="p-3 mt-3" >
